@@ -1,0 +1,8 @@
+[package]
+name = "webtech"
+version = "0.1.0"
+authors = ["David Craven <david@craven.ch>"]
+
+[dependencies]
+rocket = "0.3.3"
+rocket_codegen = "0.3.3"
