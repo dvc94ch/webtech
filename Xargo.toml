@@ -1,0 +1,18 @@
+[dependencies]
+core = {}
+alloc = {}
+
+[dependencies.compiler_builtins]
+features = ["mem"]
+git = "https://github.com/rust-lang-nursery/compiler-builtins"
+stage = 1
+
+[dependencies.std]
+path = "../steed"
+version = "0.1.0"
+stage = 2
+
+[dependencies.test]
+path = "../steed/test"
+version = "0.1.0"
+stage = 3
